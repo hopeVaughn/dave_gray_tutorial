@@ -1,10 +1,10 @@
+import Heading from "./components/Heading";
 
-
-function App() {
+const App: React.FC = () => {
 
   return (
-    <h1>hello</h1>
+    <Heading title="Hello, world!" />
   );
-}
+};
 
 export default App;
