@@ -5,9 +5,11 @@ import Counter from "./Counter";
 
 
 function App() {
-  <>
-    <Counter />
-  </>
+  return (
+    <>
+      <Counter>{(num: number) => <>Current Count: {num}</>}</Counter>
+    </>
+  )
 }
 
 export default App;
