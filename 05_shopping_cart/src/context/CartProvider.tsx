@@ -12,7 +12,7 @@ const initCartState: CartStateType = {
   cart: []
 }
 
-const initCartContextState = {
+const initCartContextState: UseCartContextType = {
   dispatch: () => {},
   REDUCER_ACTIONS: REDUCER_ACTION_TYPE,
   totalItems: 0,
