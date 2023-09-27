@@ -60,7 +60,7 @@ const CartProvider = ({ children }: ChildrenType) => {
   )
 }
 
-const useCartContext = () => {
+const useCartContext = (): UseCartContextType => {
   return useContext(CartContext);
 }
 
