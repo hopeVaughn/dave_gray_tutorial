@@ -1,6 +1,6 @@
 import { ReactElement } from "react"
 import { REDUCER_ACTION_TYPE } from "../context/actions"
-
+// start of context api and reducer types
 export type ProductType = {
   sku: string,
   name: string,
@@ -40,3 +40,9 @@ export type UseCartContextType = {
   totalPrice: string;
   cart: CartItemType[];
 };
+// end of context api and reducer types
+// start of component types
+export type HeaderProps = {
+  viewCart: boolean,
+  setViewCart: React.Dispatch<React.SetStateAction<boolean>>,
+}

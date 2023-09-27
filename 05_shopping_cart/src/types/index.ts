@@ -6,7 +6,8 @@ import {
   CartStateType,
   ReducerActionType,
   ReducerAction,
-  UseCartContextType
+  UseCartContextType,
+  HeaderProps
 } from "./types";
 
 
@@ -18,5 +19,6 @@ export type {
   CartStateType,
   ReducerActionType,
   ReducerAction,
-  UseCartContextType
+  UseCartContextType,
+  HeaderProps,
 }
