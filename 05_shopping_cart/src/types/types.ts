@@ -42,7 +42,7 @@ export type UseCartContextType = {
 };
 // end of context api and reducer types
 // start of component types
-export type HeaderProps = {
+export type ComponentGenericPropsType = {
   viewCart: boolean,
   setViewCart: React.Dispatch<React.SetStateAction<boolean>>,
 }

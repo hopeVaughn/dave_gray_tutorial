@@ -7,7 +7,7 @@ import {
   ReducerActionType,
   ReducerAction,
   UseCartContextType,
-  HeaderProps
+  ComponentGenericPropsType,
 } from "./types";
 
 
@@ -20,5 +20,5 @@ export type {
   ReducerActionType,
   ReducerAction,
   UseCartContextType,
-  HeaderProps,
+  ComponentGenericPropsType,
 }

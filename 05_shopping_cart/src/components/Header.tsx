@@ -1,6 +1,7 @@
-import { HeaderProps } from '../types'
+import { ComponentGenericPropsType } from '../types'
+import Nav from './Nav'
 
-const Header = ({ viewCart, setViewCart }: HeaderProps) => {
+const Header = ({ viewCart, setViewCart }: ComponentGenericPropsType) => {
 
   const content = (
     <header className='header'>
@@ -11,10 +12,11 @@ const Header = ({ viewCart, setViewCart }: HeaderProps) => {
           <p>Total Price:</p>
         </div>
       </div>
+      <Nav viewCart={viewCart} setViewCart={setViewCart} />
     </header>
   )
   return (
-    <div>Header</div>
+    content
   )
 }
 
