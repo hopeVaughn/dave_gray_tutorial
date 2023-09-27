@@ -1,4 +1,4 @@
-import React from 'react'
+import { ComponentGenericPropsType } from "../types"
 
 const Footer = () => {
   return (
